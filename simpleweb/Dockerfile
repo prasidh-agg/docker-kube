@@ -8,5 +8,4 @@ COPY ./package.json ./
 RUN npm install
 COPY ./ ./ 
 
-CMD ["npm", "start"] 
-#another test
+CMD ["npm", "start"]
